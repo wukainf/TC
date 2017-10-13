@@ -1,0 +1,6 @@
+# tc-server
+/logs/log*
+*.pyc
+
+# Pycharm
+.idea
