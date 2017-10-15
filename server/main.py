@@ -21,6 +21,7 @@ from tornado import web
 from tornado.options import options, define
 from tornado import log as t_log
 
+from server.common import logger
 
 def gen_handlers():
     '''
@@ -49,6 +50,7 @@ def run(port):
 def main():
     define('port', default='8888', type='str', metavar='PORT', help='server port')
 
+    logger.init_logger()
     logging.getLogger().setLevel(logging.DEBUG)
     t_log.app_log.setLevel(logging.DEBUG)
     t_log.gen_log.setLevel(logging.DEBUG)
