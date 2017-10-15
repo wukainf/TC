@@ -1,0 +1,31 @@
+2017-10-16T00:11:47.0799 INFO       root                 initialized Logger success.
+2017-10-16T00:11:47.0825 INFO       root                 server run at port: 8888
+2017-10-16T00:12:24.0231 DEBUG      root                 initialized Logger success.
+2017-10-16T00:12:24.0233 INFO       root                 server run at port: 8888
+2017-10-16T00:15:11.0830 DEBUG      root                 initialized Logger success.
+2017-10-16T00:15:11.0833 INFO       root                 server run at port: 8888
+2017-10-16T00:16:07.0017 DEBUG      root                 initialized Logger success.
+2017-10-16T00:16:07.0019 INFO       root                 server run at port: 8888
+2017-10-16T00:16:18.0964 DEBUG      root                 initialized Logger success.
+2017-10-16T00:16:18.0966 INFO       root                 server run at port: 8888
+2017-10-16T00:16:33.0768 DEBUG      root                 initialized Logger success.
+2017-10-16T00:16:33.0771 INFO       root                 server run at port: 8888
+2017-10-16T00:16:42.0695 DEBUG      root                 initialized Logger success.
+2017-10-16T00:16:42.0698 INFO       root                 server run at port: 8888
+2017-10-16T00:16:45.0745 DEBUG      root                 initialized Logger success.
+2017-10-16T00:16:45.0748 INFO       root                 server run at port: 8888
+2017-10-16T00:16:51.0149 DEBUG      root                 initialized Logger success.
+2017-10-16T00:16:51.0151 INFO       root                 server run at port: 8888
+2017-10-16T00:17:03.0653 DEBUG      root                 initialized Logger success.
+2017-10-16T00:17:03.0656 INFO       root                 server run at port: 8888
+2017-10-16T00:18:55.0812 DEBUG      root                 initialized Logger success.
+2017-10-16T00:18:55.0815 INFO       root                 server run at port: 8888
+2017-10-16T00:20:12.0273 DEBUG      root                 initialized Logger success.
+2017-10-16T00:20:12.0276 INFO       root                 server run at port: 8888
+2017-10-16T00:22:12.0694 DEBUG      root                 initialized Logger success.
+2017-10-16T00:22:12.0696 INFO       root                 server run at port: 8888
+2017-10-16T00:23:22.0084 DEBUG      root                 initialized Logger success.
+2017-10-16T00:23:22.0086 INFO       root                 server run at port: 8888
+2017-10-16T00:24:35.0483 DEBUG      root                 initialized Logger success.
+2017-10-16T00:27:01.0190 INFO       root                 initialized Logger success.
+2017-10-16T00:27:01.0192 INFO       root                 server run at port: 8888
