@@ -23,12 +23,14 @@ from tornado import log as t_log
 
 from server.common import logger
 
+from server.handlers import *
+
 def gen_handlers():
     '''
     :return: route table
     '''
     return [
-
+        (r'/?', IndexHandler, dict(action=IndexHandler.index1))
     ]
 
 class ServerApp(web.Application):

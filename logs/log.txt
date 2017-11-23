@@ -1,31 +1,326 @@
-2017-10-16T00:11:47.0799 INFO       root                 initialized Logger success.
-2017-10-16T00:11:47.0825 INFO       root                 server run at port: 8888
-2017-10-16T00:12:24.0231 DEBUG      root                 initialized Logger success.
-2017-10-16T00:12:24.0233 INFO       root                 server run at port: 8888
-2017-10-16T00:15:11.0830 DEBUG      root                 initialized Logger success.
-2017-10-16T00:15:11.0833 INFO       root                 server run at port: 8888
-2017-10-16T00:16:07.0017 DEBUG      root                 initialized Logger success.
-2017-10-16T00:16:07.0019 INFO       root                 server run at port: 8888
-2017-10-16T00:16:18.0964 DEBUG      root                 initialized Logger success.
-2017-10-16T00:16:18.0966 INFO       root                 server run at port: 8888
-2017-10-16T00:16:33.0768 DEBUG      root                 initialized Logger success.
-2017-10-16T00:16:33.0771 INFO       root                 server run at port: 8888
-2017-10-16T00:16:42.0695 DEBUG      root                 initialized Logger success.
-2017-10-16T00:16:42.0698 INFO       root                 server run at port: 8888
-2017-10-16T00:16:45.0745 DEBUG      root                 initialized Logger success.
-2017-10-16T00:16:45.0748 INFO       root                 server run at port: 8888
-2017-10-16T00:16:51.0149 DEBUG      root                 initialized Logger success.
-2017-10-16T00:16:51.0151 INFO       root                 server run at port: 8888
-2017-10-16T00:17:03.0653 DEBUG      root                 initialized Logger success.
-2017-10-16T00:17:03.0656 INFO       root                 server run at port: 8888
-2017-10-16T00:18:55.0812 DEBUG      root                 initialized Logger success.
-2017-10-16T00:18:55.0815 INFO       root                 server run at port: 8888
-2017-10-16T00:20:12.0273 DEBUG      root                 initialized Logger success.
-2017-10-16T00:20:12.0276 INFO       root                 server run at port: 8888
-2017-10-16T00:22:12.0694 DEBUG      root                 initialized Logger success.
-2017-10-16T00:22:12.0696 INFO       root                 server run at port: 8888
-2017-10-16T00:23:22.0084 DEBUG      root                 initialized Logger success.
-2017-10-16T00:23:22.0086 INFO       root                 server run at port: 8888
-2017-10-16T00:24:35.0483 DEBUG      root                 initialized Logger success.
-2017-10-16T00:27:01.0190 INFO       root                 initialized Logger success.
-2017-10-16T00:27:01.0192 INFO       root                 server run at port: 8888
+2017-11-23T14:21:57.0301 WARNING    tornado.access       404 GET / (192.168.1.160) 0.66ms
+2017-11-23T14:22:26.0444 WARNING    tornado.access       404 GET / (192.168.1.160) 0.64ms
+2017-11-23T14:22:33.0172 WARNING    tornado.access       404 GET /index (192.168.1.160) 0.65ms
+2017-11-23T14:23:52.0665 WARNING    tornado.access       404 GET / (192.168.1.160) 0.65ms
+2017-11-23T14:24:22.0609 WARNING    tornado.access       404 GET / (192.168.1.160) 0.64ms
+2017-11-23T14:24:25.0625 WARNING    tornado.access       404 GET / (192.168.1.160) 0.64ms
+2017-11-23T14:24:32.0204 INFO       root                 initialized Logger success.
+2017-11-23T14:24:32.0208 INFO       root                 server run at port: 8888
+2017-11-23T14:24:34.0331 INFO       tornado.access       200 GET / (192.168.1.160) 1.52ms
+2017-11-23T14:25:45.0650 INFO       tornado.access       304 GET / (192.168.1.160) 0.72ms
+2017-11-23T14:26:39.0456 INFO       tornado.access       304 GET / (192.168.1.160) 0.68ms
+2017-11-23T14:26:46.0649 INFO       root                 initialized Logger success.
+2017-11-23T14:26:46.0653 INFO       root                 server run at port: 8888
+2017-11-23T14:26:48.0651 INFO       tornado.access       304 GET / (192.168.1.160) 1.47ms
+2017-11-23T14:27:02.0778 INFO       root                 initialized Logger success.
+2017-11-23T14:27:02.0782 INFO       root                 server run at port: 8888
+2017-11-23T14:27:04.0680 INFO       tornado.access       304 GET / (192.168.1.160) 1.47ms
+2017-11-23T14:27:16.0597 INFO       tornado.access       304 GET / (192.168.1.160) 0.66ms
+2017-11-23T14:27:19.0747 INFO       root                 initialized Logger success.
+2017-11-23T14:27:19.0750 INFO       root                 server run at port: 8888
+2017-11-23T14:27:21.0854 INFO       tornado.access       200 GET / (192.168.1.160) 1.63ms
+2017-11-23T14:27:31.0790 INFO       root                 initialized Logger success.
+2017-11-23T14:27:31.0794 INFO       root                 server run at port: 8888
+2017-11-23T14:27:33.0215 INFO       tornado.access       304 GET / (192.168.1.160) 1.49ms
+2017-11-23T14:36:22.0267 INFO       tornado.access       304 GET / (192.168.1.160) 0.67ms
+2017-11-23T14:36:24.0999 INFO       root                 initialized Logger success.
+2017-11-23T14:36:25.0003 INFO       root                 server run at port: 8888
+2017-11-23T14:36:26.0863 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8', 'If-None-Match': '"430ce34d020724ed75a196dfc2ad67c77772d169"'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 24, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index
+    print(self.current_user)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 40, in current_user
+    return self.current_user()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 40, in current_user
+    return self.current_user()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 40, in current_user
+    return self.current_user()
+  [Previous line repeated 483 more times]
+RecursionError: maximum recursion depth exceeded
+2017-11-23T14:36:26.0876 ERROR      tornado.access       500 GET / (192.168.1.160) 14.75ms
+2017-11-23T14:36:54.0289 INFO       root                 initialized Logger success.
+2017-11-23T14:36:54.0293 INFO       root                 server run at port: 8888
+2017-11-23T14:36:56.0564 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 24, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index
+    print(self.current_user)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 40, in current_user
+    return self.current_user
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 40, in current_user
+    return self.current_user
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 40, in current_user
+    return self.current_user
+  [Previous line repeated 483 more times]
+RecursionError: maximum recursion depth exceeded
+2017-11-23T14:36:56.0577 ERROR      tornado.access       500 GET / (192.168.1.160) 14.13ms
+2017-11-23T14:37:24.0417 INFO       root                 initialized Logger success.
+2017-11-23T14:37:24.0421 INFO       root                 server run at port: 8888
+2017-11-23T14:37:26.0282 INFO       tornado.access       200 GET / (192.168.1.160) 1.76ms
+2017-11-23T15:09:00.0220 INFO       root                 initialized Logger success.
+2017-11-23T15:09:00.0223 INFO       root                 server run at port: 8888
+2017-11-23T15:09:13.0344 INFO       tornado.access       200 GET / (192.168.1.160) 1.45ms
+2017-11-23T15:09:28.0141 INFO       tornado.access       304 GET / (192.168.1.160) 0.71ms
+2017-11-23T15:09:30.0585 INFO       root                 initialized Logger success.
+2017-11-23T15:09:30.0589 INFO       root                 server run at port: 8888
+2017-11-23T15:09:32.0197 INFO       tornado.access       200 GET / (192.168.1.160) 1.50ms
+2017-11-23T15:10:18.0760 INFO       tornado.access       304 GET / (192.168.1.160) 0.73ms
+2017-11-23T15:34:32.0022 INFO       root                 initialized Logger success.
+2017-11-23T15:34:32.0026 INFO       root                 server run at port: 8888
+2017-11-23T15:34:38.0312 INFO       tornado.access       304 GET / (192.168.1.160) 1.54ms
+2017-11-23T15:35:26.0150 INFO       root                 initialized Logger success.
+2017-11-23T15:35:26.0154 INFO       root                 server run at port: 8888
+2017-11-23T15:35:28.0061 INFO       tornado.access       200 GET / (192.168.1.160) 1.53ms
+2017-11-23T15:36:42.0177 INFO       root                 initialized Logger success.
+2017-11-23T15:36:42.0181 INFO       root                 server run at port: 8888
+2017-11-23T15:36:43.0613 INFO       tornado.access       304 GET / (192.168.1.160) 1.52ms
+2017-11-23T15:53:10.0463 INFO       root                 initialized Logger success.
+2017-11-23T15:53:10.0467 INFO       root                 server run at port: 8888
+2017-11-23T15:53:14.0195 INFO       tornado.access       304 GET / (192.168.1.160) 1.44ms
+2017-11-23T15:53:35.0999 INFO       tornado.access       304 GET / (192.168.1.160) 0.65ms
+2017-11-23T15:53:40.0013 INFO       root                 initialized Logger success.
+2017-11-23T15:53:40.0017 INFO       root                 server run at port: 8888
+2017-11-23T15:53:41.0119 INFO       tornado.access       304 GET / (192.168.1.160) 1.48ms
+2017-11-23T15:54:01.0986 INFO       tornado.access       304 GET / (192.168.1.160) 0.69ms
+2017-11-23T15:54:04.0867 INFO       root                 initialized Logger success.
+2017-11-23T15:54:04.0871 INFO       root                 server run at port: 8888
+2017-11-23T15:54:06.0329 INFO       tornado.access       200 GET / (192.168.1.160) 1.53ms
+2017-11-23T15:56:31.0207 INFO       root                 initialized Logger success.
+2017-11-23T15:56:31.0211 INFO       root                 server run at port: 8888
+2017-11-23T15:56:33.0001 INFO       tornado.access       304 GET / (192.168.1.160) 1.51ms
+2017-11-23T15:57:02.0179 INFO       tornado.access       304 GET / (192.168.1.160) 0.66ms
+2017-11-23T15:57:05.0441 INFO       root                 initialized Logger success.
+2017-11-23T15:57:05.0445 INFO       root                 server run at port: 8888
+2017-11-23T15:57:06.0693 INFO       tornado.access       200 GET / (192.168.1.160) 1.61ms
+2017-11-23T15:58:05.0683 INFO       tornado.access       304 GET / (192.168.1.160) 0.75ms
+2017-11-23T15:58:10.0976 INFO       root                 initialized Logger success.
+2017-11-23T15:58:10.0980 INFO       root                 server run at port: 8888
+2017-11-23T15:58:12.0554 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8', 'If-None-Match': '"41dc396b78b147229e509980870d8ebd829fb987"'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/rest_handler.py", line 20, in get
+    return super(RestHandler, self).get(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 24, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index1
+    print(self.current_user, self.get_arguments())
+TypeError: get_arguments() missing 1 required positional argument: 'name'
+2017-11-23T15:58:12.0558 ERROR      tornado.access       500 GET / (192.168.1.160) 4.45ms
+2017-11-23T15:59:37.0277 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/rest_handler.py", line 20, in get
+    return super(RestHandler, self).get(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 24, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index1
+    print(self.current_user, self.get_all_arguments())
+TypeError: get_arguments() missing 1 required positional argument: 'name'
+2017-11-23T15:59:37.0278 ERROR      tornado.access       500 GET / (192.168.1.160) 1.79ms
+2017-11-23T15:59:46.0267 INFO       root                 initialized Logger success.
+2017-11-23T15:59:46.0271 INFO       root                 server run at port: 8888
+2017-11-23T15:59:47.0659 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/rest_handler.py", line 20, in get
+    return super(RestHandler, self).get(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 24, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index1
+    print(self.current_user, self.get_all_arguments())
+AttributeError: 'IndexHandler' object has no attribute 'get_all_arguments'
+2017-11-23T15:59:47.0663 ERROR      tornado.access       500 GET / (192.168.1.160) 4.06ms
+2017-11-23T16:00:16.0516 INFO       root                 initialized Logger success.
+2017-11-23T16:00:16.0520 INFO       root                 server run at port: 8888
+2017-11-23T16:00:17.0925 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/rest_handler.py", line 20, in get
+    return super(RestHandler, self).get(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 24, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index1
+    print(self.current_user, super(IndexHandler, self).get_all_arguments())
+AttributeError: 'super' object has no attribute 'get_all_arguments'
+2017-11-23T16:00:17.0928 ERROR      tornado.access       500 GET / (192.168.1.160) 4.14ms
+2017-11-23T16:46:57.0670 INFO       root                 initialized Logger success.
+2017-11-23T16:46:57.0674 INFO       root                 server run at port: 8888
+2017-11-23T16:47:01.0621 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/rest_handler.py", line 20, in get
+    return super(RestHandler, self).get(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 28, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index1
+    print(self.current_user, self._all)
+AttributeError: 'IndexHandler' object has no attribute '_all'
+2017-11-23T16:47:01.0627 ERROR      tornado.access       500 GET / (192.168.1.160) 6.25ms
+2017-11-23T16:47:20.0695 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/rest_handler.py", line 20, in get
+    return super(RestHandler, self).get(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 28, in get
+    else getattr(self, self.action)(*args, **kwargs)
+  File "/Users/mac/wukai/TC/server/handlers/index_handler.py", line 16, in index1
+    print(self.current_user, self._all_arguments)
+AttributeError: 'IndexHandler' object has no attribute '_all'
+2017-11-23T16:47:20.0696 ERROR      tornado.access       500 GET / (192.168.1.160) 1.81ms
+2017-11-23T16:47:24.0292 INFO       root                 initialized Logger success.
+2017-11-23T16:47:24.0296 INFO       root                 server run at port: 8888
+2017-11-23T16:47:25.0785 INFO       tornado.access       200 GET / (192.168.1.160) 1.56ms
+2017-11-23T16:52:18.0971 INFO       root                 initialized Logger success.
+2017-11-23T16:52:18.0974 INFO       root                 server run at port: 8888
+2017-11-23T16:52:25.0465 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8', 'If-None-Match': '"41dc396b78b147229e509980870d8ebd829fb987"'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 25, in prepare
+    self._all_arguments.update({k: v} for k, v in self.request.headers)
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 25, in <genexpr>
+    self._all_arguments.update({k: v} for k, v in self.request.headers)
+ValueError: too many values to unpack (expected 2)
+2017-11-23T16:52:25.0468 ERROR      tornado.access       500 GET / (192.168.1.160) 3.65ms
+2017-11-23T16:52:57.0742 INFO       root                 initialized Logger success.
+2017-11-23T16:52:57.0746 INFO       root                 server run at port: 8888
+2017-11-23T16:52:59.0639 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 25, in prepare
+    self._all_arguments.update({k: v} for k, v in self.request.headers.items())
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+2017-11-23T16:52:59.0641 ERROR      tornado.access       500 GET / (192.168.1.160) 3.64ms
+2017-11-23T16:54:49.0690 INFO       root                 initialized Logger success.
+2017-11-23T16:54:49.0694 INFO       root                 server run at port: 8888
+2017-11-23T16:54:56.0411 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 25, in prepare
+    reduce(self._all_arguments.update(), [{k: v} for k, v in self.request.headers.items()])
+NameError: name 'reduce' is not defined
+2017-11-23T16:54:56.0414 ERROR      tornado.access       500 GET / (192.168.1.160) 3.50ms
+2017-11-23T16:56:52.0060 INFO       root                 initialized Logger success.
+2017-11-23T16:56:52.0063 INFO       root                 server run at port: 8888
+2017-11-23T16:58:07.0145 INFO       root                 initialized Logger success.
+2017-11-23T16:58:07.0149 INFO       root                 server run at port: 8888
+2017-11-23T16:58:10.0390 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 27, in prepare
+    reduce(lambda x, y: x.update(y), [{k: v} for k, v in self.request.headers.items()])
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 27, in <lambda>
+    reduce(lambda x, y: x.update(y), [{k: v} for k, v in self.request.headers.items()])
+AttributeError: 'NoneType' object has no attribute 'update'
+2017-11-23T16:58:10.0392 ERROR      tornado.access       500 GET / (192.168.1.160) 3.55ms
+2017-11-23T16:59:36.0194 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 27, in prepare
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 27, in <lambda>
+AttributeError: 'NoneType' object has no attribute 'update'
+2017-11-23T16:59:36.0196 ERROR      tornado.access       500 GET / (192.168.1.160) 1.78ms
+2017-11-23T16:59:39.0425 INFO       root                 initialized Logger success.
+2017-11-23T16:59:39.0428 INFO       root                 server run at port: 8888
+2017-11-23T16:59:40.0743 INFO       tornado.access       200 GET / (192.168.1.160) 1.57ms
+2017-11-23T17:00:21.0348 INFO       root                 initialized Logger success.
+2017-11-23T17:00:21.0351 INFO       root                 server run at port: 8888
+2017-11-23T17:00:22.0909 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8', 'If-None-Match': '"41dc396b78b147229e509980870d8ebd829fb987"'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 26, in prepare
+    [self._all_arguments.update({k: v}) for k, v in self.request.headers.body()]
+AttributeError: 'HTTPHeaders' object has no attribute 'body'
+2017-11-23T17:00:22.0911 ERROR      tornado.access       500 GET / (192.168.1.160) 3.67ms
+2017-11-23T17:00:37.0723 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 26, in prepare
+    [self._all_arguments.update({k: v}) for k, v in self.request.body.itmes()]
+AttributeError: 'HTTPHeaders' object has no attribute 'body'
+2017-11-23T17:00:37.0724 ERROR      tornado.access       500 GET / (192.168.1.160) 1.76ms
+2017-11-23T17:00:39.0986 INFO       root                 initialized Logger success.
+2017-11-23T17:00:39.0989 INFO       root                 server run at port: 8888
+2017-11-23T17:00:41.0109 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 26, in prepare
+    [self._all_arguments.update({k: v}) for k, v in self.request.body.itmes()]
+AttributeError: 'bytes' object has no attribute 'itmes'
+2017-11-23T17:00:41.0111 ERROR      tornado.access       500 GET / (192.168.1.160) 3.50ms
+2017-11-23T17:01:22.0351 INFO       root                 initialized Logger success.
+2017-11-23T17:01:22.0355 INFO       root                 server run at port: 8888
+2017-11-23T17:01:23.0624 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 28, in prepare
+    [self._all_arguments.update({k: v}) for k, v in json.loads(self.request.body).itmes()]
+  File "/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2017-11-23T17:01:23.0630 ERROR      tornado.access       500 GET / (192.168.1.160) 6.35ms
+2017-11-23T17:05:32.0200 INFO       root                 initialized Logger success.
+2017-11-23T17:05:32.0203 INFO       root                 server run at port: 8888
+2017-11-23T17:05:33.0610 ERROR      tornado.application  Uncaught exception GET / (192.168.1.160)
+HTTPServerRequest(protocol='http', host='192.168.1.160:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.1.160', headers={'Host': '192.168.1.160:8888', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 QQBrowser/4.1.4132.400', 'Accept-Encoding': 'gzip, deflate, sdch', 'Accept-Language': 'zh-CN,zh;q=0.8'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/mac/wukai/TC/server/handlers/base_handler.py", line 26, in prepare
+    [self._all_arguments.update({k: v}) for k, v in self.request.arguments.itmes()]
+AttributeError: 'dict' object has no attribute 'itmes'
+2017-11-23T17:05:33.0613 ERROR      tornado.access       500 GET / (192.168.1.160) 3.66ms
+2017-11-23T17:06:37.0912 INFO       root                 initialized Logger success.
+2017-11-23T17:06:37.0916 INFO       root                 server run at port: 8888
+2017-11-23T17:06:39.0407 INFO       tornado.access       200 GET / (192.168.1.160) 1.57ms
+2017-11-23T17:07:38.0589 INFO       root                 initialized Logger success.
+2017-11-23T17:07:38.0593 INFO       root                 server run at port: 8888
+2017-11-23T17:07:40.0124 INFO       tornado.access       304 GET / (192.168.1.160) 1.57ms
+2017-11-23T17:08:32.0473 INFO       root                 initialized Logger success.
+2017-11-23T17:08:32.0476 INFO       root                 server run at port: 8888
+2017-11-23T17:08:35.0490 INFO       tornado.access       304 GET / (192.168.1.160) 1.61ms
+2017-11-23T17:36:40.0921 INFO       root                 initialized Logger success.
+2017-11-23T17:36:40.0924 INFO       root                 server run at port: 8888
+2017-11-23T17:36:51.0090 INFO       tornado.access       304 GET / (192.168.1.160) 1.57ms
