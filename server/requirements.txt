@@ -1,2 +1,5 @@
 colorlog
 abc
+pymongo
+pyssdb
+redis
